@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <div class="row">
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="deskopt-menu">
+      
+<ul>
+    <li><a href="">Şirkət</a></li>
+    <li><a href="">Müştəri rəyləri</a></li>
+    <li><a href="">Turlar</a></li>
+    <li><a href="">Xidmətlər</a></li>
+    <li><a href="">Əməkdaşlıq</a></li>
+    <li><a href="">Azərbaycanı Kəşf et</a></li>
+    <li><a href="">Əlaqə</a></li>
+</ul>
+
+        </div>
+        
+        <div id="navmenu" class="navbarmenu ">
+            <div class="close-bar">
+                <i class="fa-solid fa-xmark"  onclick="closemenu()"></i>
+         
+            </div>
+              <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <ul>
+    <li><a href="" >Şirkət</a></li>
+    <li><a href="">Müştəri rəyləri</a></li>
+    <li><a href="">Turlar</a></li>
+    <li><a href="">Xidmətlər</a></li>
+    <li><a href="">Əməkdaşlıq</a></li>
+    <li><a href="">Azərbaycanı Kəşf et</a></li>
+    <li><a href="">Əlaqə</a></li>
+</ul>
+<button>Qiymət təklifi al</button>
+<div class="icons">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <i class="fa-brands fa-linkedin"></i>
+
+</div>
+        </div>
+        <div class="mobile-menu">
+     
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </div>
+    </div>
+    </header>
+<script>
+let navmenu=document.getElementById('navmenu')
+function openmenu(){
+navmenu.style.right='0';
+}
+function closemenu(){
+    navmenu.style.right='-100%';
+}
+</script>
+</body>
+</html>
